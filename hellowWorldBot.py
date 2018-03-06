@@ -56,7 +56,3 @@ async def on_message(message):
 
 # token にDiscordのデベロッパサイトで取得したトークンを入れてください
 client.run("NDE5NzQwOTA2MDQ4OTc4OTQ0.DX5FvQ.Kgm1ykVzdRdMUQGmyVadnsLFS6w")
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
