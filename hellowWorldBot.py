@@ -9,6 +9,9 @@ Created on Mon Mar  5 12:09:47 2018
 import discord
 import random
 import os
+from flask import Flask
+
+app = Flask(__name__)
 
 client = discord.Client()
 
