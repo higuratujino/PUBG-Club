@@ -45,15 +45,9 @@ async def on_message(message):
                        "Junkyard","Monte Nuevo","Pecado","Impala","Chumacera","Los Leones",
                        "PuertoParaiso","Valle del Mar","Prison,Minas del Sur","Los Higos",
                        "右にある島二つ","Los Leonesの下にaarrrsfdjioafjwoeisある田舎"]
-        discentPlace = random.choice(miramarList)
-        await client.send_message(message.channel, discentPlace)
-   
-    elif message.content.startswith("クソアニメ"):
-        await client.send_message(message.channel, "私は神だ")
-    elif message.content.startswith("オー"):
-        await client.send_message(message.channel, "知りたいこと何でも教えよう(wiki調べ)")
-    elif message.content.startswith("私のことどれくらい好きかおしえて？"):
-        await client.send_message(message.channel, "いっぱいちゅき♡")
+        discentPlaceM = random.choice(miramarList)
+        await client.send_message(message.channel, discentPlaceM)
+        
     elif message.content.startswith("すかいりむ"):
         await client.send_message(message.channel, "PUBGしろ")
         
