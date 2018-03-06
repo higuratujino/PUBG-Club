@@ -12,6 +12,7 @@ backports.shutil-get-terminal-size==1.0.0
 beautifulsoup4==4.6.0
 bitarray==0.8.1
 bkcharts==0.2
+blaze==0.11.3
 bleach==2.1.2
 bokeh==0.12.13
 boto==2.48.0
@@ -21,6 +22,7 @@ cffi==1.11.4
 chardet==3.0.4
 click==6.7
 cloudpickle==0.5.2
+clyent==1.2.2
 colorama==0.3.9
 contextlib2==0.5.5
 cryptography==2.1.4
@@ -28,6 +30,7 @@ cycler==0.10.0
 Cython==0.27.3
 cytoolz==0.9.0
 dask==0.16.1
+datashape==0.5.4
 decorator==4.2.1
 discord.py==0.16.12
 distributed==1.20.2
@@ -42,6 +45,7 @@ gevent==1.2.2
 glob2==0.6
 gmpy2==2.0.8
 greenlet==0.4.12
+gunicorn==19.7.1
 h5py==2.7.1
 heapdict==1.0.0
 html5lib==1.0.1
@@ -76,6 +80,7 @@ mpmath==1.0.0
 msgpack-python==0.5.1
 multidict==4.1.0
 multipledispatch==0.4.9
+navigator-updater==0.1.0
 nbconvert==5.3.1
 nbformat==4.4.0
 networkx==2.1
@@ -86,6 +91,7 @@ numba==0.36.2
 numexpr==2.6.4
 numpy==1.14.0
 numpydoc==0.7.0
+odo==0.5.1
 olefile==0.45.1
 openpyxl==2.4.10
 packaging==16.8
