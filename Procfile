@@ -1,1 +1,1 @@
-worker: python HellowWorldBot.py
+web: gunicorn HellowWorldBot:app --log-file -
