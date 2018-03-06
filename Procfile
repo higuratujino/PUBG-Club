@@ -1,1 +1,1 @@
-web: python hellowWorldBot.py
+worker: python hellowWorldBot.py
