@@ -9,7 +9,10 @@ Created on Mon Mar  5 12:09:47 2018
 import discord
 import random
 import os
-from flask import app
+from flask import Flask
+
+app = Flask(__name__)
+app.debug = True
 
 client = discord.Client()
 
@@ -59,4 +62,6 @@ async def on_message(message):
 # token にDiscordのデベロッパサイトで取得したトークンを入れてください
 client.run("NDE5NzQwOTA2MDQ4OTc4OTQ0.DX5FvQ.Kgm1ykVzdRdMUQGmyVadnsLFS6w")
 
-app.run(degub=true)
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
+    app.run(port=port)
