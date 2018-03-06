@@ -9,7 +9,7 @@ Created on Mon Mar  5 12:09:47 2018
 import discord
 import random
 import os
-from intro_to_flask import app
+from flask import app
 
 client = discord.Client()
 
