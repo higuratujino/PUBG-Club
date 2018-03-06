@@ -1,1 +1,1 @@
-web: gunicorn HellowWorldBot:app --log-file -
+web: gunicorn HellowWorldBot:app
