@@ -8,6 +8,7 @@ Created on Mon Mar  5 12:09:47 2018
 
 import discord
 import random
+import os
 
 client = discord.Client()
 
