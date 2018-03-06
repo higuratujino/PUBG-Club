@@ -1,1 +1,1 @@
-web: python hellowWorldBot.py
+web: python hellowWorldBot.py ${PORT}
