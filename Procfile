@@ -1,1 +1,1 @@
-worker: bundle exec python hellowWorldBot.py
+worker: python HellowWorldBot.py
