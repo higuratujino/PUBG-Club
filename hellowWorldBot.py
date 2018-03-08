@@ -35,6 +35,14 @@ async def on_message(message):
             # メッセージが送られてきたチャンネルへメッセージを送ります
             await client.send_message(message.channel, m)
             
+    elif message.content.startswith("おやすみ"):
+        # 送り主がBotだった場合反応したくないので
+        if client.user != message.author:
+            # メッセージを書きます
+            oyasumi = "おやすみなさい" + message.author.name + "さん！"
+            # メッセージが送られてきたチャンネルへメッセージを送ります
+            await client.send_message(message.channel, oyasmi)
+            
     elif message.content.startswith("えらんげる"):
         erangelList = ["リポブカ","ザラキ","ポチンキ","Severny","スクール","病院","すたるばー",
                        "ミリべ","射撃場","やすなや","ロズホック","ミルタ","マンション","ミルタパワー",
