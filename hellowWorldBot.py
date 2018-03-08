@@ -41,7 +41,7 @@ async def on_message(message):
             # メッセージを書きます
             oyasumi = "おやすみなさい" + message.author.name + "さん！"
             # メッセージが送られてきたチャンネルへメッセージを送ります
-            await client.send_message(message.channel, oyasmi)
+            await client.send_message(message.channel, oyasumi)
             
     elif message.content.startswith("えらんげる"):
         erangelList = ["リポブカ","ザラキ","ポチンキ","Severny","スクール","病院","すたるばー",
